@@ -235,7 +235,7 @@
 	include_once (PARENT_DIR . '/includes/theme-testimeta.php');
 
 	//Add the postmeta to Our Team posts
-	//include_once (PARENT_DIR . '/includes/theme-teammeta.php');
+	include_once (PARENT_DIR . '/includes/theme-teammeta.php');
 
 	//Loading options.php for theme customizer
 	include_once (CHILD_DIR . '/options.php');
