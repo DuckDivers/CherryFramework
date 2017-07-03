@@ -32,10 +32,6 @@ pre {
 code, code var {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
-body, input, textarea {
-	font-size: 12px;
-	line-height: 18px;
-}
 hr {
 	background-color: #e7e7e7;
 	border: 0;

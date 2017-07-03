@@ -30,6 +30,9 @@ a:focus { outline:none; }
 	width:auto;
 	background:#fafafa;
 }
+@media (min-width: 1470px) {
+	.cherry-fixed-layout .main-holder { max-width:1410px; }
+}
 @media (min-width: 1200px) {
 	.cherry-fixed-layout .main-holder { max-width:1210px; }
 }
@@ -46,9 +49,6 @@ a:focus { outline:none; }
 .logo {
 	position:relative;
 	z-index:99;
-}
-@media (min-width: 768px) and (max-width: 979px) {
-	.logo { width:60%; }
 }
 .logo_h__txt { margin:0; }
 .logo_link {

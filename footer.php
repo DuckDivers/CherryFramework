@@ -14,12 +14,15 @@
 			<?php echo apply_filters( 'cherry_back_top_html', '<a href="#top"><span></span></a>' ); ?>
 		</p>
 	</div>
-	<?php if(of_get_option('ga_code')) { ?>
+	<?php if ( ! current_user_can( 'manage_options' ) ) { // Exclude Admins from Google Analytics
+			if(of_get_option('ga_code')) { 
+		?>
 		<script type="text/javascript">
 			<?php echo stripslashes(of_get_option('ga_code')); ?>
 		</script>
 		<!-- Show Google Analytics -->
-	<?php } ?>
+	<?php }
+		} ?>
 	<?php wp_footer(); ?> <!-- this is used by many Wordpress features and for plugins to work properly -->
 </body>
 </html>

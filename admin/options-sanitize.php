@@ -667,6 +667,7 @@ function options_typography_get_google_fonts() {
 			"Handlee" => "Handlee *",
 			"Hanuman" => "Hanuman *",
 			"Happy Monkey" => "Happy Monkey *",
+			"Heebo"	=> "Heebo",
 			"Henny Penny" => "Henny Penny *",
 			"Herr Von Muellerhoff" => "Herr Von Muellerhoff *",
 			"Holtwood One SC" => "Holtwood One SC *",

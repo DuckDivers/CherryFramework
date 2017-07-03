@@ -2,7 +2,7 @@
 	include_once (PARENT_DIR . '/admin/data_management/backup.php');
 	include_once (PARENT_DIR . '/admin/data_management/restore.php');
 	include_once (PARENT_DIR . '/admin/data_management/download_backup.php');
-	include_once (PARENT_DIR . '/admin/data_management/update.php');
+//	include_once (PARENT_DIR . '/admin/data_management/update.php');
 
 	@define('PARENT_NAME', 'CherryFramework');
 

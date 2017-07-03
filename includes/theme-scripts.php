@@ -18,9 +18,8 @@ function cherry_scripts() {
 		wp_register_script('device', PARENT_URL.'/js/device.min.js', array('jquery'), '1.0.0', true);
 		wp_register_script('custom', PARENT_URL.'/js/custom.js', array('jquery'), '1.0');
 
-		wp_enqueue_script('swfobject');
 		wp_enqueue_script('modernizr');
-		wp_enqueue_script('jflickrfeed');
+		//wp_enqueue_script('jflickrfeed');
 		wp_enqueue_script('superfish');
 		wp_enqueue_script('mobilemenu');
 		wp_enqueue_script('easing');

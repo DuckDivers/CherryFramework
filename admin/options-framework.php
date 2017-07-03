@@ -164,7 +164,7 @@ function optionsframework_setdefaults() {
 
 if ( !function_exists( 'optionsframework_add_page' ) ) {
 	function optionsframework_add_page() {
-		$of_page = add_menu_page(theme_locals("cherry_options"), theme_locals("cherry_options"), 'edit_theme_options', 'options-framework', 'optionsframework_page', OPTIONS_FRAMEWORK_DIRECTORY.'images/cherry-icon.png', 61);
+		$of_page = add_menu_page(theme_locals("cherry_options"), __("Theme Options"), 'edit_theme_options', 'options-framework', 'optionsframework_page', OPTIONS_FRAMEWORK_DIRECTORY.'images/duck-icon.png', 61);
 
 		// Adds actions to hook in the required css and javascript
 		add_action("admin_print_scripts-$of_page", 'optionsframework_load_scripts');
@@ -262,7 +262,7 @@ if ( !function_exists( 'optionsframework_page' ) ) {
 						$support_link = '//info.template-help.com/help/de/cms-blog-templates/wordpress/wordpress-tutorials/';
 					break;
 				}
-				echo '<a href="https://www.duckdiverllc.com/" style="float:left; font-size: 24px;margin-top: 5px; color: #000;"><i class="dd-duck-icon" style="padding-right: 10px;"></i>Duck Diver Version</a>';
+				echo '<a href="https://www.duckdiverllc.com/" style="float:left; font-size: 24px;margin-top: 5px; color: #000;"><i class="dd-duck-icon" style="padding-right: 10px;"></i>Duck Diver Theme Options</a>';
 				echo '<a class="icon-a icon-support" href="mailto:info@duckdiverllc.com?subject=DD Cherry Support"><span class="icon"><span>'.theme_locals("support").'</span></span></a>';
 				echo "<a class='icon-a icon-documentation' href='".$doc_link."' target='_blank'><span class='icon'><span>".theme_locals('documentation')."</span></span></a>";
 			?>
