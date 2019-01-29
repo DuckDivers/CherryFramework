@@ -212,9 +212,10 @@ if ( ! function_exists( 'optionsframework_mlu_get_silentpost' ) ) {
 			
 			$query .= ' LIMIT 1';
 			$_posts = $wpdb->get_row( $query );
-			
+            
+
 			// If we've got a post, loop through and get it's ID.
-			if ( count( $_posts ) ) {
+			if ( null !== ( $_posts ) ) {
 				$_id = $_posts->ID;
 			} else {
 			
