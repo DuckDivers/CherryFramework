@@ -256,7 +256,6 @@
 
 	// removes detailed login error information for security
 	add_filter('login_errors',function($a){return null;});
-
 	/*
 	 * Loads the Options Panel
 	 *
